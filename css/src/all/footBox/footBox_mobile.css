@@ -1,0 +1,24 @@
+/*footBox_mobile.css*/
+@media screen and (max-width:280px) { 
+
+#fmiddle_wrap {width: 100%; height: 100%;}
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width:281px) and (max-width: 480px) { 
+
+
+#fmiddle_wrap {width: 100%; height: 100%;}
+
+
+
+
+
+
+}
