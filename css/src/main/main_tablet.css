@@ -1,0 +1,21 @@
+/*main_tablet.css*/
+@media screen and (min-width:481px) and (max-width:768px) { 
+
+#mainbox {padding-top: 0;}
+.banner {height: 470px; height: 29.375rem;}
+.banner1 {background-image: url("../../../img/main/minifull05_tablet.png");}
+
+.maintext {width: 340px; height: 164px; margin-left: -260px; margin-left: -33.854166vw; top:20%;}
+.maintext > h3 {font-size: 1.6rem;}
+.middle_wrap {width: 80%; padding: 1rem;}
+.grow_mini {height: 470px; height: 29.375rem;}
+#ryanImage {width: 55%; height: 360px; margin-right: 5%;}
+#growText {width: 40%; margin-top: 5rem;}
+#growText > h3 {font-size: 1.4rem; word-break: keep-all;}
+#growText > p {font-size: 1.1rem; word-break: keep-all;}
+
+
+
+
+
+  }

@@ -1,11 +1,25 @@
 /*headBox_mobile.css*/
 @media screen and (max-width: 280px) {
 
-#headBox {width: 100%; height: 60px; height: 3.75rem; padding: 38px 23px;}
-#gnb_wrap {width: 100%; height: 100%;}
+#headBox {width: 100%; height: 60px; height: 3.75rem; padding: 0.5rem 0 0.5rem 5%; position: relative;}
 #middle_wrap {width: 100%; height: 100%;}
 h1 {width: 110px; height: 36px; float: left;}
+#gnb_wrap {width: 60%; height: 500px;  float: right;}
 
+.dropBtn {width: 40px; height: 40px; background-color: #caf; position: absolute; top: 50%; right: 5%; margin-top: -20px; z-index: 10000; background-color: #000;}
+.dropBtn > button {width: 100%; height: 100%;}
+.icon {display: block; width: 100%; height: 2px; height: 0.125rem; background-color: #fff; position: relative; transition: all 500ms ease;}
+.icon:before {display: block; content: " "; width: 100%; height: 2px; height: 0.125rem; background-color: #fff; position: absolute; transition: all 500ms ease; top: -0.5rem; }
+.icon:after {display: block; content: " "; width: 100%; height: 2px; height: 0.125rem; background-color: #fff; position: absolute; transition: all 500ms ease; bottom: -0.5rem;} 
+#gnb {width: 100%; height: 100%; background-color: #000;}
+#gnb > ul {margin: auto; width: 80%; height: 90%; padding-top: 30%; box-sizing: border-box;}
+#gnb > ul > li {float: none; width: 100%; height: 20%; position: relative;}
+#gnb > ul > li > a {margin-bottom: 1rem; color: #E2E2E2;}
+#gnb > ul > li > ol {width: 100%; height: 20%; margin: auto;}
+#gnb > ul > li > ol > a {width: 20%;  text-align: center;}
+#gnb > ul > li:nth-of-type(2) {width: 100%; height: 60%;}
+
+.kakaomini > ol > li {width: 100%;}
 
 
 
@@ -16,18 +30,18 @@ h1 {width: 110px; height: 36px; float: left;}
 #headBox {width: 100%; height: 60px; height: 3.75rem; padding: 0.5rem 0 0.5rem 5%; position: relative;}
 #middle_wrap {width: 100%; height: 100%;}
 h1 {width: 110px; height: 36px; float: left;}
-#gnb_wrap {width: 60%; height: 500px; background-color: #faf; float: right;}
+#gnb_wrap {width: 60%; height: 500px;  float: right;}
 
 .dropBtn {width: 40px; height: 40px; background-color: #caf; position: absolute; top: 50%; right: 5%; margin-top: -20px; z-index: 10000; background-color: #000;}
 .dropBtn > button {width: 100%; height: 100%;}
 .icon {display: block; width: 100%; height: 2px; height: 0.125rem; background-color: #fff; position: relative; transition: all 500ms ease;}
 .icon:before {display: block; content: " "; width: 100%; height: 2px; height: 0.125rem; background-color: #fff; position: absolute; transition: all 500ms ease; top: -0.5rem; }
 .icon:after {display: block; content: " "; width: 100%; height: 2px; height: 0.125rem; background-color: #fff; position: absolute; transition: all 500ms ease; bottom: -0.5rem;} 
-#gnb {width: 100%; height: 100%;}
-#gnb > ul {margin: auto; width: 80%; height: 90%; padding-top: 15%; box-sizing: border-box;}
-#gnb > ul > li {float: none; width: 100%; height: 20%;}
-#gnb > ul > li > a {margin-bottom: 1rem;}
-#gnb > ul > li > ol {width: 30%; height: 20%; margin: auto;}
+#gnb {width: 100%; height: 100%; background-color: #000;}
+#gnb > ul {margin: auto; width: 80%; height: 90%; padding-top: 30%; box-sizing: border-box;}
+#gnb > ul > li {float: none; width: 100%; height: 20%; position: relative;}
+#gnb > ul > li > a {margin-bottom: 1rem; color: #E2E2E2;}
+#gnb > ul > li > ol {width: 100%; height: 20%; margin: auto;}
 #gnb > ul > li > ol > a {width: 20%;  text-align: center;}
 #gnb > ul > li:nth-of-type(2) {width: 100%; height: 60%;}
 

@@ -3,6 +3,7 @@
 @media screen and (min-width: 481px) and (max-width: 768px) { 
   
 #footBox {width: 100%; height: 60px;}
-#fmiddle_wrap {width: 100%; height: 100%; padding: 1rem 1.5rem;}
+#fmiddle_wrap {width: 100%; height: 100%;}
+
 
 }

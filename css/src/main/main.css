@@ -1,8 +1,31 @@
 /*main.css*/
 #wrap {width: 100%; height: auto; background-color: #abf;}
-#mainbox {width: 100%; height: auto; background-color: #fce; }
-.banner {width: 100%; height: 600px; margin-bottom: 1.5rem;}
-.banner_frame {width: 100%; height: inherit; background-color: #fed;}
-.grow_mini {width: 100%; height: 600px;}
+#mainbox {width: 100%; height: auto; background-color: #fff; padding-top: 105px; }
+.banner {width: 100%; height: 600px; height: 37.5rem; margin-bottom: 1.5rem; position: relative;}
+.indicator {width: 74px; width: 4.625rem; height: auto; position: absolute; bottom: 3rem; left:50%; margin-left: -37px; margin-left: -2.3125rem;}
+.indicator > li {width: 32px; width: 2rem; height: 32px; height: 2rem; float: left; margin-right: 10px; margin-right: 0.625rem;border-radius: 100%; border: 3px solid #fff;  box-sizing: border-box;}
+.indicator > li:last-child {margin-right: 0;}
+.indicator > li > a {width: 100%; height: 100%;  border-radius: inherit;}
+
+
+.banner_frame {width: 100%; height: inherit;}
+.maintext {position: absolute; top: 30%; left: 50%; margin-left: -30rem; width: 380px; width: 23.75rem; height: 120px; height: 7.5rem;}
+.maintext > h3 { font-size: 2rem; color: #000; word-break: keep-all;  line-height: 200%;}
+.maintext > button {width: 130px; width: 8.125rem; height: 52px; height: 3.25rem; border: 3px solid #fff; font-size: 1.2rem; margin-top: 2rem; margin-right: 20px; margin-right: 1.25rem; font-weight: bold;}
+.purchase {background-color: #000; color: #fff;}
+.view {background-color: #ccc; margin-right: 0;}
+.bannerUl {width: 100%; height: 100%;}
+.banner1 {background-image: url("../../../img/main/minifull05.jpg"); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; background-size: cover; width: 100%; height: 100%;}
+/*.banner2 {background-image: url("../../../img/main/minifull04.jpg"); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; background-size: cover; width: 100%; height: 100%;}*/
+
+.grow_mini {width: 100%; height: 560px; height: 35rem; background-color: #D4E0E6;}
+.middle_wrap {margin: auto; width: 960px; width: 60rem; height: 100%;padding: 2rem; box-sizing: border-box;}
+#ryanImage {float: left; width: 60%; height: 500px; height: 31.25rem; margin-right: 5%;}
+.little {float: left; width: 35%; height: 60%; margin-right: 5%; background-image: url("../../../img/main/littleRyan.png"); background-repeat: no-repeat;  -webkit-background-size: contain; background-size: contain; background-position: center; margin-top: 35%;}
+.teen {float: right; width: 60%; height: 80%; margin-top: 10%; background-image: url("../../../img/main/teenRyan.png"); background-repeat: no-repeat; -webkit-background-size: contain;background-size: contain;  background-position: center; }
+#growText {float: right; margin-top: 12rem; width: 35%;}
+#growText > h3 {font-size: 2rem; margin-bottom: 1.5rem; text-align: center;}
+#growText > p {font-size: 1.5rem; margin-bottom: 1.5rem; text-align: center;}
+#growText > button { width: 130px; width: 8.125rem; height: 52px; height: 3.25rem; border: 3px solid #000; font-size: 1.2rem; background-color: #FFFF00; margin: auto; display: block; font-weight: bold;}
 
 
