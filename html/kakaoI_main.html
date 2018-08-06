@@ -69,22 +69,38 @@
       </div>
     </header>
     
-    <aside id="mainbox">
+    <aside id="mainbox" class="clearfix">
+      <h2 class="hidden">메인</h2>
       <div class="banner">
         <ul class="indicator">
           <li><a href="#"></a></li>
           <li><a href="#"></a></li>
         </ul>
-
         <div class="banner_frame">
+          <div class="maintext">
+            <h3>카카오미니와 함께하는 당신의 새로운 일상</h3>
+            <button type="button" class="purchase" name="구매하기" onclick="window.open('http://naver.com')">구매하기</button>
+            <button type="button" class="view" name="제품보기" onclick="location.href='#'">제품보기</button>
+          </div>
           <ul class="bannerUl">
             <li class="banner1"></li>
             <li class="banner2"></li>
           </ul>
         </div>
       </div>
-      <div class="grow_mini">
 
+      <div class="grow_mini">
+        <div class="middle_wrap">
+          <div id="ryanImage">
+            <div class="little"></div>
+            <div class="teen"></div>
+          </div>
+          <div id="growText">
+            <h3>카카오 미니는 성장 중!</h3>
+            <p>일상 속 카카오미니는 어떤 모습일까요?</p>
+            <button type="button">성장일기</button>
+          </div>
+        </div>
       </div>
 
     </aside>
@@ -104,6 +120,6 @@
   <!-- javascript -->
   <script src="../js/base/jQuery-3.3.1.min.js"></script>
   <script src="../js/base/jQuery-ui.min.js"></script>
-  <!-- <script src="../js/src/kakaoI_main.js"></script> -->
+  <script src="../js/src/kakaoI_main.js"></script>
 </body>
 </html>
