@@ -1,72 +1,65 @@
 // kakaoI_main.js
 
+// banner & indicator 이동
+
 (function($) {
-// gnb hover > 하위 메뉴 표시
 
-var gBtn = $('.dropBtn');
-var gnb = $('#gnb');
-var gnbLi = gnb.children('ul').children('li');
-var gnbOl = gnbLi.children('ol');
+var bannerUl = $('.bannerUl');
+var bannerLi = bannerUl.children('li');
+var indiLi = $('.indicator').children('li');
+var bannerLen = bannerLi.length;
+var j=0;
 
-gnbOl.hide();
+var Zindex = function() {
+  var i=0;
+  for(; i<=bannerLen; i+=1) {
+    var j = i*10;
+    bannerLi.eq(bannerLen-i).css({zIndex: j});
+  }
+};
+Zindex();
 
-gnbLi.on('mouseenter', function(e){
 
-$(this).children('ol').fadeIn();
-$(this).children('ol').addClass('show');
+var IndiActive = function(j){
+  indiLi.eq(j).addClass('active');
+  indiLi.eq(j).siblings('li').removeClass('active');
+  bannerLi.eq(j).fadeIn();
+  bannerLi.eq(j).next().fadeIn();
+  bannerLi.eq(j).prev().fadeOut();
+};
+IndiActive(j);
 
-});
+var autoStart;
 
-gnbLi.on('mouseleave', function(e){
+var startSlide =function(){autoStart = 
+setInterval(function(){
+(j >= bannerLen) ? j=0 : j+=1;
+IndiActive(j);},
+ 2000);};
+
+
+startSlide(j);
+
+indiLi.on('click', function(e){
 
 e.preventDefault();
-$(this).children('ol').fadeOut();
-$(this).children('ol').removeClass('show');
+j = $(this).index();
+IndiActive(j);
 
 });
 
-// gnb > li > a에 포커스 상태일 때
-gnbLi.children('a').on('focus', function(e){
 
-$(this).next('ol').fadeIn();
-});
+// 라이언 두마리 애니메이션 효과
+var little = $('.little');
+var teen = $('.teen');
 
-// gnbOl의 li와 a에 대해 각각 적용(each문)
-$.each(gnbOl, function(i,v){
+teen.hide();
 
-  var j= gnbOl.eq(i).children('li');
-  j.eq(-1).children('a').on('blur', function(){
-  gnbOl.eq(i).stop().fadeOut();
-  });
-});
+$(window).on('scroll', function(){
+teen.fadeIn(1000);
+teen.addClass('active');
 
-gnbOl.children('li').last().children('a').on('blur', function(e){
-
-$(this).hide();
-});
-
-// drop버튼 클릭 시 메뉴 펼쳐서 보여주기
-
-gnb.hide();
-
-gBtn.on('click', function(){
-
-gnb.slideToggle();
-
-});
-
-// 디바이스 가로값 변경 시 자동 적용
-var wind = $(window);
-var windWidth = wind.outerWidth();
-
-$(wind).on('resize', function(e){
-
-var nowW = $(window).outerWidth();
-if(windWidth !== nowW) {
-  location.reload();
-}
 });
 
 
 }) (jQuery);
-
