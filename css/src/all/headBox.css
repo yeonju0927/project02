@@ -9,11 +9,15 @@ h1 > a {display: block; width: 100%; height: 100%;}
 #gnb > ul > li {float: left; width: 15%; height: inherit; margin-right: 5%;}
 #gnb > ul > li:nth-of-type(2) {width: 60%;}
 #gnb > ul > li:last-child {margin-right: 0;}
-#gnb > ul > li > a {display: block; width: 100%; height: auto; color: #E2E2E2; font-size: 1.5rem; margin-bottom: 0.5rem; text-align: center;}
+#gnb > ul > li > a {display: block; width: 100%; height: auto; color: #E2E2E2; font-size: 1.4rem; margin-bottom: 0.5rem; text-align: center; font-weight: bold;}
+#gnb > ul > li.active > a {color: #fe0;}
 #gnb > ul ol {width: 100%; height: 100%;}
 /*#gnb > ul ol > li {float: left; width: 100%; height: inherit;}*/
-#gnb > ul ol > li > a {float: left; text-align: center; width: 100%; height: auto; color: #E2E2E2;}
+#gnb > ul ol > li > a {float: left; text-align: center; width: 100%; height: auto; color: #E2E2E2; font-size: 14px;}
+#gnb > ul ol > li.active > a {color: #fe0;}
 
 .kakaomini > ol > li {float: left; width: 20%; height: 100%; margin-right: 5%;}
 .kakaomini > ol > li:last-child {margin-right: 0;}
 
+#gnb li>a:focus,
+#gnb li>a:hover{outline: 0; color:#fe0;}

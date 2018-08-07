@@ -1,0 +1,40 @@
+/*공통영역*/
+#wrap {width: 100%; height: auto; background-color: #bcf;}
+#mini01 {padding-top: 105px; padding-top: 6.5625rem;}
+.kminibox {margin: auto; width: 960px; height: 100%; background-color: #FEC8C8;}
+#introBox {width: 100%; height: 1320px; background-color: #dedede; padding-top: 180px; box-sizing: border-box;}
+#introBox h3 {font-size: 3rem; width: 60%; margin-left: 30%; margin-bottom: 70px;}
+.intromini {width: 100%; height: 1020px; background-color: #fe0;}
+
+
+
+#videoBox {width: 100%; height: 1300px; background-color: #f5a; padding-top: 180px; box-sizing: border-box;}
+#videoBox h3 {font-size: 3rem; width: 60%; margin-left: 30%; margin-bottom: 70px;}
+.video {width: 100%; height: 540px; background-color: #25C6A2;}
+#videoBox button {width: 130px; width: 8.125rem; height: 52px; height: 3.25rem; background-color: #ccc; font-size: 1.2rem; float: right; margin-top: 60px; border: 3px solid #fff; font-size: 1.2rem; font-weight: bold;}
+.help_text {width: 650px; height: 164px; background-color: #fff; margin: auto; margin-top: 160px;}
+
+
+#musicBox {width: 100%; height: 1310px; background-color: #f6c; padding-top: 130px; box-sizing: border-box;}
+.textBox {width: auto; height: 480px; margin-left: 15%; background-color: #fff; margin-bottom: 190px; padding-top: 180px; box-sizing: border-box;}
+.textBox > h3 {font-size: 3rem; margin-bottom: 1.5rem; width: auto; height: auto;}
+.textBox > p {font-size: 2rem;}
+.rainy {width: 100%; height: 560px; background-color: #fe0;}
+
+
+#talkBox {width: 100%; height: 1800px; background-color: #9FC0D7; padding-top: 130px; box-sizing: border-box;}
+.talkImg {width: 100%; height: 1080px; background-color: #fff; margin-top: 140px;}
+
+
+
+#infoBox {width: 100%; height: 2000px; background-color: #CDE884; padding-top: 200px; box-sizing: border-box;}
+#infoBox h3 {width: 420px; height: 144px;background-color: #f0f; margin: auto; margin-bottom: 4rem;}
+.icon_text  {width: 100%; height: 720px; background-color: #fe0;}                                       
+.icon_text  > i {float: left; width: 20%; height: 130px; background-color: #2840B1; margin-right: 10%; margin-bottom: 3rem;}
+.icon_text  > dl {float: right; width: 70%; height: 130px; background-color: #dca65a; margin-bottom: 3rem;}
+.icon_text > dl > dt {font-size: 2rem; margin-bottom: 0.5rem;}
+.icon_text > dl > dd {font-size: 1.5rem;}
+.spec_info {width: 60%; height: 760px; margin-left: 20%; background-color: #9bbd84; margin-top: 4rem;}
+.spec_info > dl {width: 100%; height: 50px; background-color: #fe0; margin-bottom: 1rem; font-size: 1.5rem; line-height: 50px;}
+.spec_info > dl > dt {float: left; width: 20%; margin-right: 10%;}
+.spec_info > dl > dd {float: right; width: 70%;}
