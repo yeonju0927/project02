@@ -1,0 +1,91 @@
+/*kakaomini01.css*/
+
+@media screen and (max-width: 280px) {
+
+#mini01 {padding-top: 0; /*padding-top: 3.75rem;*/}
+.kminibox {width: 100%; height: auto;}
+#introBox {width: 100%; height: auto; /*height: 42.5rem;*/ padding-top: 0;}
+#introBox h3 {font-size: 1.5rem; margin-left:10%; width: auto; height: auto; margin-bottom: 0;/* margin-bottom: 2.5rem;*/ margin-top: 3rem;}
+.intromini {width: 100%; height: 480px; height: 30rem;}
+
+#videoBox {width: 100%; height: 630px; height: 39.375rem; padding-top: 80px; padding-top: 3rem;}
+#videoBox h3 {font-size: 1.5rem; margin-left: 20%; margin-bottom: 30px; margin-bottom: 1.875rem;}
+.video {width: 100%; height: 270px; height: 16.875rem;}
+#videoBox button {width: 100px; width: 6.25rem; height: 40px; height: 2.5rem; border: 2px solid #fff; font-size: 1.1rem; font-weight: bold; margin-top: 20px; margin-top: 1.25rem;}
+.help_text {width: 350px; width: 21.875rem; height: 98px; height: 6.125rem; margin-top: 80px; margin-top: 5rem;}
+
+
+#musicBox {width: 100%; height: auto; /*height: 50.625rem;*/ padding-top: 0;}
+.textBox {width: 80%; height: 290px; height: 18.125rem; padding-top: 126px; margin-left: 10%; /*margin-bottom: 65px;*/}
+.textBox > h3 {font-size: 1.5rem; margin-bottom: 2rem;}
+.textBox > p {font-size: 1.2rem; word-break: keep-all;}
+.rainy {width: 100%; height: 200px; height: 12.5rem;}
+
+#talkBox {width: 100%; height: 834px; height: 52.125rem;  padding-top: 120px; padding-top: 7.5rem;}
+#talkBox > .kminibox > .textBox {height: 130px; margin-bottom: 65px; padding-top: 0;}
+.talkImg {width: 100%; height: 502px; height: 31.375rem; margin-top: 65px; margin-top: 4.0625rem;}
+
+#infoBox     {width: 100%; height: auto; padding: 40px 20px 0 20px; padding: 8.333333vw 4.166666vw 0 4.166666vw;}
+#infoBox h3  {font-size: 1.5rem; margin-left:10%; width: 80%; height: 90px; margin-bottom: 2.5rem;  }
+.icon_text {width: 100%; /*height: 520px; height: 32.5rem;*/ height: auto;}
+.iconT {width: 100%; height: 100px; background-color: #fff;}
+.iconT  > i {width: 65px; height: 65px; width: 13.541666vw; height: 13.541666vw; margin-right: 20px; margin-right: 4.166666vw; margin-top: 1.5rem;}
+.iconT  > dl {width: 350px; width: 72.916666vw; height: auto; margin-top: 1rem;}
+.iconT > dl > dt {font-size: 1.3rem;}
+.iconT > dl > dd {font-size: 1rem;}
+
+.spec_info {margin-top: 0; width: 100%; height: 620px; height: 38.75rem; margin-left: 0;}
+.spec_info > dl {font-size: 1rem; margin-bottom: 0;}
+.spec_info > dl > dt {float: left; width: 25%; margin-right: 5%;}
+.spec_info > dl > dd {float: right; width: 70%; font-size: 14px;}
+}
+
+
+
+@media screen and (min-width: 281px) and (max-width: 480px) {
+
+#mini01 {padding-top: 0; /*padding-top: 3.75rem;*/}
+.kminibox {width: 100%; height: auto;}
+#introBox {width: 100%; height: auto; /*height: 42.5rem;*/ padding-top: 0;}
+#introBox h3 {font-size: 2rem; width: 100%; height: auto; margin-bottom: 0; margin: auto; text-align: center;}
+#introBox > .kminibox {padding-top: 5rem; box-sizing: border-box;}
+.intromini {width: 100%; height: 480px; height: 30rem;}
+
+#videoBox {width: 100%; height: 630px; height: 39.375rem; padding-top: 80px; padding-top: 3rem;}
+#videoBox h3 {font-size: 2rem; margin-bottom: 30px; margin-bottom: 1.875rem;}
+.video {width: 100%; height: 270px; height: 16.875rem;}
+#videoBox button {width: 100px; width: 6.25rem; height: 40px; height: 2.5rem; margin-right: 1rem; border: 2px solid #fff; font-size: 1.1rem; font-weight: bold; margin-top: 20px; margin-top: 1.25rem;}
+.help_text {width: 350px; width: 21.875rem; height: 98px; height: 6.125rem; margin-top: 80px; margin-top: 5rem;}
+
+.appeach01 { width: 100%; height: 100%; }
+.appeach02 { width: 100%; height: 100%; }
+
+#musicBox {width: 100%; height: auto; /*height: 50.625rem;*/ padding-top: 0;}
+.textBox {width: 80%; height: auto; /*height: 18.125rem;*/ padding-top: 126px; margin-left: 10%; margin-bottom: 30px; -webkit-background-size: 60%; background-position: right 20%;
+background-size: 60%;}
+.textBox > h3 {font-size: 1.6rem; /*margin-top: 3rem;*/ margin-bottom: 2rem; word-break: keep-all; text-align: center; line-height: 140%;}
+.textBox > p {font-size: 1.2rem; word-break: keep-all;}
+.rainy {width: 100%; height: 200px; height: 12.5rem; margin-top: 2rem;}
+
+#talkBox {width: 100%; height: 834px; height: 52.125rem;  padding-top: 120px; padding-top: 7.5rem;}
+#talkBox > .kminibox > .textBox {height: 130px; margin-bottom: 65px; padding-top: 0;}
+.talkImg {width: 100%; height: 502px; height: 31.375rem; margin-top: 65px; margin-top: 4.0625rem;}
+
+#infoBox     {width: 100%; height: auto; padding: 40px 20px 0 20px; padding: 8.333333vw 4.166666vw 0 4.166666vw;}
+#infoBox h3  {font-size: 2rem; margin-left:10%; width: 80%; height: 90px; margin-bottom: 2.5rem;  }
+.icon_text {width: 100%; /*height: 520px; height: 32.5rem;*/ height: auto;}
+.iconT {width: 100%; height: 100px;}
+.iconT  > i {width: 65px; height: 65px; width: 13.541666vw; height: 13.541666vw; margin-right: 20px; margin-right: 4.166666vw; margin-top: 1.5rem;}
+.iconT  > dl {width: 350px; width: 72.916666vw; height: auto; margin-top: 1rem;}
+.iconT > dl > dt {font-size: 1.3rem;}
+.iconT > dl > dd {font-size: 1rem;}
+
+.spec_info {margin-top: 0; width: 100%; height: 620px; height: 38.75rem; margin-left: 0;}
+.spec_info > dl {font-size: 1rem; margin-bottom: 0;}
+.spec_info > dl > dt {float: left; width: 25%; margin-right: 5%;}
+.spec_info > dl > dd {float: right; width: 70%; font-size: 14px;}
+
+
+
+
+}

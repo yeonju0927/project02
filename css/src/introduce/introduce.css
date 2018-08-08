@@ -1,0 +1,16 @@
+/*introduce.css*/
+#wrap {width: 100%; height: auto; background-color: #cca;}
+#introkBox {width: 100%; height: auto; background-color: #faf; padding-top: 105px;}
+.middleA {width: 960px; height: inherit; background-color: #ccc; margin: auto; padding-top: 130px; box-sizing: border-box;}
+.middleA > h3 {font-size: 3rem; text-align: center; width: 100%; margin-bottom: 4rem;}
+.circle {width: 100%; height: 380px; background-color: #c0a; /*background-image: url("../../../img/introduce/circle.png"); background-repeat: no-repeat; background-position: center;*/}
+
+#Igraph {width: 100%; height: 648px; background-color: #A1C2CE;}
+#tGraph {width: 100%; height: 1010px; background-color: #fff; padding-top: 3rem; box-sizing: border-box;}
+.middleB {padding-top: 100px; box-sizing: border-box; width: 960px; height: inherit; background-color: #ccc; margin: auto;}
+#tGraph dl {width: 45%; margin-bottom: 2rem;}
+#tGraph dl > dt {font-size: 2rem; margin-bottom: 2.5rem; font-weight: bold; }
+#tGraph dl > dd {font-size: 1.2rem;  word-break: keep-all; }
+.with {float: right; margin-top: -65%;}
+#tGraph  p {font-size: 1.2rem; margin-top: 3rem; word-break: keep-all;}
+

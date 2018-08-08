@@ -1,40 +1,56 @@
 /*공통영역*/
 #wrap {width: 100%; height: auto; background-color: #bcf;}
-#mini01 {padding-top: 105px; padding-top: 6.5625rem;}
-.kminibox {margin: auto; width: 960px; height: 100%; background-color: #FEC8C8;}
-#introBox {width: 100%; height: 1320px; background-color: #dedede; padding-top: 180px; box-sizing: border-box;}
-#introBox h3 {font-size: 3rem; width: 60%; margin-left: 30%; margin-bottom: 70px;}
-.intromini {width: 100%; height: 1020px; background-color: #fe0;}
+#mini01 {/*padding-top: 105px; padding-top: 6.5625rem;*/}
+.kminibox {margin: auto; width: 960px; height: auto; background-color: inherit;}
+#introBox {width: 100%; height: auto; /*1320*/ background-color: #fff; padding-top: 180px; box-sizing: border-box;}
+#introBox > .kminibox {padding-top: 2rem; box-sizing: border-box;}
+#introBox h3 {font-size: 3rem; /*margin-bottom: 70px;*/ text-align: center; margin-top: 5rem;}
+.intromini {width: 100%; height: 1020px; background-image: url("../../../img/kakaomini01/intromini.png"); -webkit-background-size: contain; background-size: contain; background-position: center; background-repeat: no-repeat; margin-top: 3rem;}
 
 
 
-#videoBox {width: 100%; height: 1300px; background-color: #f5a; padding-top: 180px; box-sizing: border-box;}
-#videoBox h3 {font-size: 3rem; width: 60%; margin-left: 30%; margin-bottom: 70px;}
-.video {width: 100%; height: 540px; background-color: #25C6A2;}
+#videoBox {width: 100%; height: 1300px; background-color: #F6F6F8; padding-top: 180px; box-sizing: border-box;}
+#videoBox h3 {font-size: 3rem; margin-bottom: 70px; text-align: center;}
+.video {width: 100%; height: 540px; background-image: url("../../../img/kakaomini01/poster_play.png"); -webkit-background-size: contain; background-size: contain; background-position: center; background-repeat: no-repeat;}
+.video > video {width: 100%; height: 100%;}
 #videoBox button {width: 130px; width: 8.125rem; height: 52px; height: 3.25rem; background-color: #ccc; font-size: 1.2rem; float: right; margin-top: 60px; border: 3px solid #fff; font-size: 1.2rem; font-weight: bold;}
-.help_text {width: 650px; height: 164px; background-color: #fff; margin: auto; margin-top: 160px;}
+.help_text {width: 650px; height: 164px; margin: auto; margin-top: 160px; position: relative; }
+.appeach01 {position: absolute; z-index:50;  width: 100%; height: 100%; background-image: url("../../../img/kakaomini01/ment_from_appeach2.png"); background-repeat: no-repeat; -webkit-background-size: contain;background-size: contain;}
+.appeach02 {position: absolute; z-index:40;  width: 100%; height: 100%; background-image: url("../../../img/kakaomini01/ment_from_appeach.png"); background-repeat: no-repeat; -webkit-background-size: contain;background-size: contain;}
 
 
-#musicBox {width: 100%; height: 1310px; background-color: #f6c; padding-top: 130px; box-sizing: border-box;}
-.textBox {width: auto; height: 480px; margin-left: 15%; background-color: #fff; margin-bottom: 190px; padding-top: 180px; box-sizing: border-box;}
-.textBox > h3 {font-size: 3rem; margin-bottom: 1.5rem; width: auto; height: auto;}
-.textBox > p {font-size: 2rem;}
-.rainy {width: 100%; height: 560px; background-color: #fe0;}
+#musicBox {width: 100%; height: 1250px; background-color: #FEFFFE; padding-top: 130px; box-sizing: border-box;}
+.textBox {width: 100%; height: 400px; margin-bottom: 5rem; padding-top: 180px; box-sizing: border-box;}
+.textBox > h3 {font-size: 3rem; margin-bottom: 5rem; width: 100%; height: auto; text-align: center;}
+.musicT {background-image: url("../../../img/kakaomini01/melon.png"); background-repeat: no-repeat; -webkit-background-size: contain;background-size: contain; background-position: right 100%;}
+.textBox > p {font-size: 2rem; text-align: center;}
+.rainy {width: 100%; height: 560px; background-image: url("../../../img/kakaomini01/rainy_pc.png"); background-repeat: no-repeat; -webkit-background-size: contain;background-size: contain; background-position: center;}
 
 
-#talkBox {width: 100%; height: 1800px; background-color: #9FC0D7; padding-top: 130px; box-sizing: border-box;}
-.talkImg {width: 100%; height: 1080px; background-color: #fff; margin-top: 140px;}
+#talkBox {width: 100%; height: auto; background-color: #F9F9F9; padding-top: 130px; box-sizing: border-box;}
+.talkImg {width: 100%; height: 1080px;  margin-top: 3rem; background-image: url("../../../img/kakaomini01/kakaotalk.png"); background-repeat: no-repeat; -webkit-background-size: contain;
+background-size: contain; background-position: center;}
 
 
 
-#infoBox {width: 100%; height: 2000px; background-color: #CDE884; padding-top: 200px; box-sizing: border-box;}
-#infoBox h3 {width: 420px; height: 144px;background-color: #f0f; margin: auto; margin-bottom: 4rem;}
-.icon_text  {width: 100%; height: 720px; background-color: #fe0;}                                       
-.icon_text  > i {float: left; width: 20%; height: 130px; background-color: #2840B1; margin-right: 10%; margin-bottom: 3rem;}
-.icon_text  > dl {float: right; width: 70%; height: 130px; background-color: #dca65a; margin-bottom: 3rem;}
-.icon_text > dl > dt {font-size: 2rem; margin-bottom: 0.5rem;}
-.icon_text > dl > dd {font-size: 1.5rem;}
-.spec_info {width: 60%; height: 760px; margin-left: 20%; background-color: #9bbd84; margin-top: 4rem;}
-.spec_info > dl {width: 100%; height: 50px; background-color: #fe0; margin-bottom: 1rem; font-size: 1.5rem; line-height: 50px;}
+#infoBox {width: 100%; height: 2000px; background-color: #E7E7EB; padding-top: 200px; box-sizing: border-box;}
+#infoBox h3 {width: 420px; height: 144px; margin: auto; margin-bottom: 4rem; background-image: url("../../../img/kakaomini01/title.png"); background-repeat: no-repeat; background-position: center; -webkit-background-size: contain;
+background-size: contain;}
+
+.icon_text  {width: 100%; height: 720px;}
+.iconT {width: 100%; height: 130px; margin-bottom: 3rem;}                                       
+.iconT  > i {float: left; width: 20%; height: 100%; margin-right: 10%; -webkit-background-size: contain; background-size: contain; background-position: center; background-repeat: no-repeat; }
+.i01 > i {background-image: url("../../../img/kakaomini01/icon01.png");}
+.i02 > i {background-image: url("../../../img/kakaomini01/icon02.png");}
+.i03 > i {background-image: url("../../../img/kakaomini01/icon03.png");}
+.i04 > i {background-image: url("../../../img/kakaomini01/icon04.png");}
+
+
+
+.iconT  > dl {float: right; width: 70%; height: 100%; word-break: keep-all;}
+.iconT > dl > dt {font-size: 2rem; font-weight: bold;}
+.iconT > dl > dd {font-size: 1.5rem;}
+.spec_info {width: 60%; height: 760px; margin-left: 20%;  margin-top: 4rem;}
+.spec_info > dl {width: 100%; height: 50px; margin-bottom: 1rem; font-size: 1.5rem; line-height: 50px;}
 .spec_info > dl > dt {float: left; width: 20%; margin-right: 10%;}
 .spec_info > dl > dd {float: right; width: 70%;}

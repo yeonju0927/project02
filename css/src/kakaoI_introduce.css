@@ -1,14 +1,15 @@
-/*css 모음*/
+
 @import url("./all/headBox.css");
 @import url("./all/headBox/headBox_mobile.css");
 @import url("./all/headBox/headBox_tablet.css");
 @import url("./all/headBox/headBox_pc.css");
 
 
-@import url("./kakaomini01/kakaomini01.css");
-@import url("./kakaomini01/kakaomini01_mobile.css");
-@import url("./kakaomini01/kakaomini01_tablet.css");
-@import url("./kakaomini01/kakaomini01_pc.css");
+@import url("./introduce/introduce.css");
+@import url("./introduce/introduce_mobile.css");
+@import url("./introduce/introduce_tablet.css");
+@import url("./introduce/introduce_pc.css");
+
 
 
 

@@ -3,7 +3,7 @@
 
 #headBox {width: 100%; height: 60px; height: 3.75rem; padding: 1rem 0 1rem 1rem; position: relative;}
 #middle_wrap {width: 100%; height: 100%;}
-#gnb_wrap {width: 60%; height: 600px;  float: right;}
+#gnb_wrap {width: 100%; height: auto; float: right;}
 h1 {width: 110px; height: 36px; float: left;}
 
 
@@ -13,7 +13,7 @@ h1 {width: 110px; height: 36px; float: left;}
 .icon {display: block; width: 100%; height: 2px; height: 0.125rem; background-color: #fff; position: relative; transition: all 500ms ease;}
 .icon:before {display: block; content: " "; width: 100%; height: 2px; height: 0.125rem; background-color: #fff; position: absolute; transition: all 500ms ease; top: -0.5rem; }
 .icon:after {display: block; content: " "; width: 100%; height: 2px; height: 0.125rem; background-color: #fff; position: absolute; transition: all 500ms ease; bottom: -0.5rem;} 
-#gnb {width: 100%; height: 100%; background-color: #000;}
+#gnb {width: 60%; height: 600px; background-color: #000; position: absolute; right: 0;}
 #gnb > ul {margin: auto; width: 80%; height: 90%; padding-top: 15%; box-sizing: border-box;}
 #gnb > ul > li {float: none; width: 100%; height: 20%;}
 #gnb > ul > li > a {margin-bottom: 1rem; color: #E2E2E2;}
