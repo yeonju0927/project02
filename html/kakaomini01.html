@@ -10,7 +10,7 @@
 <!--   <link rel="stylesheet" type="text/css" href="../fontawesome5/css/all.css"> -->
 
   <!-- import css -->
-  <!-- <link rel="stylesheet" href="./headBox.html" /> -->
+  <link rel="stylesheet" href="./headBox.html" />
   <link rel="stylesheet" href="../css/base/reset.css" />
   <link rel="stylesheet" href="../css/src/kakaoI_kakaomini01.css" />
  
@@ -31,43 +31,6 @@
 
   <div id="wrap">
     <header id="headBox">
-      <div id="middle_wrap">
-        <h1><a href="kakaoI_main.html"><span class="hidden">logo</span></a></h1>
-        
-        <div id="gnb_wrap">
-          
-          <div class="dropBtn">
-            <button type="button" class="active">
-              <i class="icon"></i>
-              <span class="hidden">메뉴버튼</span>
-            </button>
-          </div>
-
-          <nav id="gnb">
-            <h2 class="hidden">메뉴</h2>
-            <ul>
-              <li>
-                <a href="#">소개</a>
-                <ol><li><a href="#">kakao i</a></li></ol>
-              </li>
-              <li class="kakaomini clearfix">
-                <a href="#">카카오미니</a>
-                <ol>
-                  <li><a href="#">제품소개</a></li>
-                  <li><a href="#">구매하기</a></li>
-                  <li><a href="#">사용팁</a></li>
-                  <li><a href="#">성장일기</a></li>
-                </ol>
-              </li>
-              <li>          
-                <a href="#">파트너</a>
-                <ol><li><a href="#">제안하기</a></li></ol>
-              </li>        
-            </ul>
-          </nav>
-        
-        </div>
-      </div>
     </header>
     <!-- contentBox -->
     <article id="mini01">
@@ -81,14 +44,21 @@
       <section id="videoBox">
         <div class="kminibox">
           <h3>먼저, 광고부터!</h3>
-          <div class="video"></div>
+          <div class="video">
+            <video controls="controls" autoplay="autoplay" muted="muted">
+              <source src="../media/kakaomini.mp4" type="video/mp4">
+            </video>
+          </div>
           <button type="button">더보기</button>
-          <div class="help_text"></div>
+          <div class="help_text">
+            <div class="appeach01"></div>
+            <div class="appeach02"></div>
+          </div>
         </div>
       </section>
       <section id="musicBox">
         <div class="kminibox">
-          <div class="textBox">
+          <div class="textBox musicT">
             <h3>음성으로 쉽고 빠르게 음악 추천</h3>
             <p>원하는 상황, 기분에 맞춰 멜론에서 음악을 추천해 드려요.</p>
           </div>
@@ -104,33 +74,38 @@
           <div class="talkImg"></div>
         </div>
       </section>
-      <section id="infoBox">
+      <section id="infoBox" class="clearfix">
         <div class="kminibox">
           <h3><span class="hidden">제품스펙</span></h3>
-          <div class="icon_text">
-            <i>img</i>
-            <dl>
-              <dt>4Mic System</dt>
-              <dd>멀리 있어도, 어느 위치에 있어도, 당신의 목소리를 스마트하게 잘 들어요.</dd>
-            </dl>
-   
-            <i>img</i>
-            <dl>
-              <dt>4개의 아날로그 버튼</dt>
-              <dd>자주 사용하는 기능을 스피커 상단의 버튼에 담아 기기 설정이 쉬워요.</dd>
-            </dl>
-
-            <i>img</i>
-            <dl>
-              <dt>풀컬러 LED 라이트링</dt>
-              <dd>묻는 질문에 대한 인터렉션을 시각적으로 다채롭게 보여줘요.</dd>
-            </dl>
-
-            <i>img</i>
-            <dl>
-              <dt>외부 스피커 연결 기능</dt>
-              <dd>Aux out 단자를 통 한 유선 연결 및 Bluetooth를 통한 무선 연결을 지원합니다.</dd>
-            </dl>
+          <div class="icon_text clearfix">
+            <div class="iconT i01">
+              <i><span class="hidden">4Mic System</span></i>
+              <dl>
+                <dt>4Mic System</dt>
+                <dd>멀리 있어도, 어느 위치에 있어도, 당신의 목소리를 스마트하게 잘 들어요.</dd>
+              </dl>
+            </div>
+            <div class="iconT i02">
+              <i><span class="hidden">4개의 아날로그 버튼</span></i>
+              <dl>
+                <dt>4개의 아날로그 버튼</dt>
+                <dd>자주 사용하는 기능을 스피커 상단의 버튼에 담아 기기 설정이 쉬워요.</dd>
+              </dl>
+            </div>
+            <div class="iconT i03">
+              <i><span class="hidden">풀컬러 LED 라이트링</span></i>
+              <dl>
+                <dt>풀컬러 LED 라이트링</dt>
+                <dd>묻는 질문에 대한 인터렉션을 시각적으로 다채롭게 보여줘요.</dd>
+              </dl>
+            </div>
+            <div class="iconT i04">
+              <i><span class="hidden">외부 스피커 연결 기능</span></i>
+              <dl>
+                <dt>외부 스피커 연결 기능</dt>
+                <dd>Aux out 단자를 통 한 유선 연결 및 Bluetooth를 통한 무선 연결을 지원합니다.</dd>
+              </dl>
+            </div>
           </div>
           <div class="spec_info">
             <dl>
@@ -205,7 +180,12 @@
   <!-- javascript -->
   <script src="../js/base/jQuery-3.3.1.min.js"></script>
   <script src="../js/base/jQuery-ui.min.js"></script>
-  <script src="../js/src/kakaoI_basic.js"></script>
-  <script src="../js/src/kakaoI_main.js"></script>
+  <script src="../js/src/kakaoI_kakaomini01.js"></script>
+  <script>
+    (function($){
+      var headBox = $('#headBox');
+      headBox.load('./headBox.html')
+    }) (jQuery);
+  </script>
 </body>
 </html>

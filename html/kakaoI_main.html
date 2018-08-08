@@ -10,7 +10,7 @@
 <!--   <link rel="stylesheet" type="text/css" href="../fontawesome5/css/all.css"> -->
 
   <!-- import css -->
-  <!-- <link rel="stylesheet" href="./headBox.html" /> -->
+  <link rel="stylesheet" href="./headBox.html" />
   <link rel="stylesheet" href="../css/base/reset.css" />
   <link rel="stylesheet" href="../css/src/kakaoI_main.css" />
  
@@ -31,43 +31,6 @@
 
   <div id="wrap">
     <header id="headBox">
-      <div id="middle_wrap">
-        <h1><a href="kakaoI_main.html"><span class="hidden">logo</span></a></h1>
-        
-        <div id="gnb_wrap">
-          
-          <div class="dropBtn">
-            <button type="button" class="active">
-              <i class="icon"></i>
-              <span class="hidden">메뉴버튼</span>
-            </button>
-          </div>
-
-          <nav id="gnb">
-            <h2 class="hidden">메뉴</h2>
-            <ul>
-              <li>
-                <a href="#">소개</a>
-                <ol><li><a href="#">kakao i</a></li></ol>
-              </li>
-              <li class="kakaomini clearfix">
-                <a href="#">카카오미니</a>
-                <ol>
-                  <li><a href="#">제품소개</a></li>
-                  <li><a href="#">구매하기</a></li>
-                  <li><a href="#">사용팁</a></li>
-                  <li><a href="#">성장일기</a></li>
-                </ol>
-              </li>
-              <li>          
-                <a href="#">파트너</a>
-                <ol><li><a href="#">제안하기</a></li></ol>
-              </li>        
-            </ul>
-          </nav>
-        
-        </div>
-      </div>
     </header>
     
     <aside id="mainbox" class="clearfix">
@@ -121,7 +84,12 @@
   <!-- javascript -->
   <script src="../js/base/jQuery-3.3.1.min.js"></script>
   <script src="../js/base/jQuery-ui.min.js"></script>
-  <script src="../js/src/kakaoI_basic.js"></script>
   <script src="../js/src/kakaoI_main.js"></script>
+  <script>
+    (function($){
+      var headBox = $('#headBox');
+      headBox.load('./headBox.html')
+    }) (jQuery);
+  </script>
 </body>
 </html>
