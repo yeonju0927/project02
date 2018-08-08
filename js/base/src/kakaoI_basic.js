@@ -10,11 +10,11 @@ var gnbOl = gnbLi.children('ol');
 
 gnbOl.hide();
 
-gnbLi.on('click', function(e){
+gnbLi.children('a').on('click', function(e){
   e.preventDefault();
-  $(this).children('ol').fadeIn();
-  $(this).addClass('active');
-  $(this).children('ol').addClass('show');
+  $(this).next('ol').fadeIn();
+  $(this).next('ol').addClass('show');
+  $(this).parent('active');
 });
 
 
