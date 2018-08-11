@@ -1,0 +1,27 @@
+/*kakaomini03_tablet.css*/
+@media screen and (min-width:481px) and (max-width:768px) { 
+
+
+#wrap { width: 100%; }
+#tipBox { width: 100%; padding-top:0;}
+#textBanner_area { width: 100%; height: 160px;}
+.textBN { width: 80%; margin-left: 10%; left: 0;}
+.textBN > span {font-size: 1.5rem; line-height: 128px;}
+.tb03 > span {font-size: 1rem; line-height: 100%;}
+.middle {width: 90%;}
+#howtoUse {width: 100%; height: 530px; padding-top: 100px; box-sizing: border-box;}
+#howtoUse h3 {font-size: 1.5rem; word-break: keep-all;}
+#howtoUse p {font-size: 1.2rem; margin-bottom: 3.5rem;}
+#tipBtn {width: 350px; width: 45.572916vw ; height: 170px; height: 22.135416vw }
+#miniImg {width: 256px; width:33.333333vw; height: 254px; height: 33.072916vw;}
+
+#downloadApp {height: 480px; padding-top: 100px;}
+#downloadApp > .middle {-webkit-background-size: contain; background-size: contain; background-position: right 2rem;}
+#downloadApp h3 {font-size: 1.5rem; margin-bottom: 3.5rem;}
+#downBtn {width: 334px; height: 60px; margin-bottom: 3rem;}
+#downBtn > button {width: 45%; height: 100%;}
+#downloadApp p {margin-bottom: 2rem; font-size: 1rem; line-height: 140%; width: 80%;}
+.appstore {margin-right: 10%;}
+
+
+}

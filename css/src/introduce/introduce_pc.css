@@ -1,1 +1,124 @@
 /*introduce_pc.css*/
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+
+#wrap {width: 100%; height: auto; background-color: #cca;}
+#introkBox {width: 100%; height: auto; background-color: #faf;}
+.middleA {width: 90%; height: inherit; background-color: #A1C2CE; margin: auto; padding-top: 50px; box-sizing: border-box;}
+.middleA > h3 {font-size: 3rem; text-align: center; width: 100%; margin-bottom: 4rem;}
+
+
+#Igraph {width: 100%; height: 648px; background-color: #A1C2CE;  padding-top: 105px; box-sizing: border-box;}
+.circle {width: 100%; height: 380px; background-color: #A1C2CE; /*background-image: url("../../../img/introduce/circle.png"); background-repeat: no-repeat; background-position: center;*/}
+.circle > li {float: left; background-color: #CEC567; border: 5px solid #d9d9d9; border-radius: 100%; box-sizing: border-box; width: 200px; height: 200px; width: 25.575447vw; height: 25.575447vw; margin-right: 50px; position: relative; }
+.circle > li span {position: absolute; color: #000; text-align: center; font-size: 2rem; line-height: 25.575447vw; font-weight: bolder; position: absolute; width: 100%; height: inherit;}
+.circle > li span:nth-of-type(2) {opacity: 0;}
+.circle > li span:nth-of-type(2).active {opacity: 1; color: #847E43; transition: all 500ms ease;}
+.circle > li:last-child {margin-right: 0;}
+
+#modalBG {width: 100%; height: 648px; background-color: rgba(23,23,23,0.5); position: fixed; top: 0; padding-top: 10%; box-sizing: border-box;}
+.diWindow {margin: auto; width: 90%; height: 90%; background-color: #F1EEE8; 
+  border:3rem solid  #F1EEE8; box-shadow:0 0 0 10px  #878787, 10px 5px 20px  #000;
+  box-sizing: border-box; /*padding:3rem;*/ position: relative; overflow: hidden;}
+
+.indicator {position: absolute; z-index: 500; bottom: 3rem; left: 50%; margin: auto; margin-left: -56px; width: 112px; height: auto;  /*background-color: #ccc;*/}
+.indicator > li {width: 24px; height: 24px; border-radius: 100%; border: 2px solid #fff; float: left; margin-right: 14px; }
+.indicator > li > a {display: block; width: 100%; height: 100%; border-radius: inherit;}
+.indicator > li > a:hover, .indicator > li > a:focus {cursor: pointer;}
+.indicator > li > a.active {background-color: #5174CC;}
+.indicator > li:last-child {margin-right: 0;}
+#modalbox {width: 100%; height: 100%; position: relative;}
+
+#modalbox > dl {width: 100%; height: 100%; background-color: #F1EEE8; position: absolute;}
+#modalbox > dl:nth-of-type(1) {z-index: 100;}
+#modalbox > dl.active {transition: all 300ms ease;}
+
+
+#modalbox > dl > dt {width: 240px; height: 70px; /*background-color: #ddd;*/ margin: auto; margin-bottom: 2.5rem; background-repeat: no-repeat; -webkit-background-size: contain; background-position: center; background-size: contain;}
+#modalbox > dl:nth-of-type(1) > dt {background-image: url("../../../img/introduce/kakaoi_inside.png");}
+#modalbox > dl:nth-of-type(2) > dt {background-image: url("../../../img/introduce/kakaoi.png");}
+#modalbox > dl:nth-of-type(3) > dt {background-image: url("../../../img/introduce/kakaoi_open_builder.png");}
+#modalbox > dl > dd {font-size: 1.2rem; line-height: 200%; word-break: keep-all;}
+
+
+
+#tGraph {width: 100%; height: auto; background-color: #fff; padding-top: 0;}
+.middleB {padding-top: 50px; box-sizing: border-box; width: 90%; height: 100%; margin: auto;}
+#tGraph dl {width: 45%; margin-bottom: 2rem;}
+#tGraph dl > dt {font-size: 2rem; margin-bottom: 1.5rem; font-weight: bold; }
+#tGraph dl > dd {font-size: 1.2rem;  word-break: keep-all; line-height: 180%; }
+.with {position: absolute; top:3rem; right: 0;}
+#tGraph  p {font-size: 1.2rem; margin-top: 3rem; word-break: keep-all; line-height: 180%;}
+
+.tformobile {display: none;}
+
+
+ }
+
+@media screen and (min-width:1025px) and (max-width:1366px) {
+
+#wrap {width: 100%; height: auto; background-color: #cca;}
+#introkBox {width: 100%; height: auto; background-color: #faf;}
+.middleA {width: 960px; width: 60rem; height: inherit; background-color: #A1C2CE; margin: auto; padding-top: 130px; padding-top: 8.125rem; box-sizing: border-box;}
+.middleA > h3 {font-size: 3rem; text-align: center; width: 100%; margin-bottom: 4rem;}
+
+
+#Igraph {width: 100%; height: 746px; height: 46.625rem; background-color: #A1C2CE; padding-top: 105px; padding-top: 6.5625rem; box-sizing: border-box;}
+.circle {width: 100%; height: 380px; height: 23.75rem; background-color: #A1C2CE; /*background-image: url("../../../img/introduce/circle.png"); background-repeat: no-repeat; background-position: center;*/}
+.circle > li {float: left; margin-right: 50px; background-color: #CEC567; border: 5px solid #d9d9d9; border-radius: 100%; width: 273px; height: 274px; position: relative; }
+.circle > li span {position: absolute; color: #000; text-align: center; font-size: 2rem; line-height: 274px; font-weight: bolder; position: absolute; width: 100%; height: inherit;}
+.circle > li span:nth-of-type(2) {opacity: 0;}
+.circle > li span:nth-of-type(2).active {opacity: 1; color: #847E43; transition: all 500ms ease;}
+.circle > li:last-child {margin-right: 0;}
+
+#modalBG {width: 100%; height: 746px; height: 46.625rem; background-color: rgba(23,23,23,0.5); position: fixed; top: 0; padding-top: 10%; box-sizing: border-box;}
+.diWindow {margin: auto; width: 960px; height: 90%; background-color: #F1EEE8; 
+  border:3rem solid  #F1EEE8; box-shadow:0 0 0 10px  #878787, 10px 5px 20px  #000;
+  box-sizing: border-box; /*padding:3rem;*/ position: relative; overflow: hidden;}
+
+.indicator {position: absolute; z-index: 500; bottom: 3rem; left: 50%; margin: auto; margin-left: -56px; width: 112px; height: auto;  /*background-color: #ccc;*/}
+.indicator > li {width: 24px; height: 24px; border-radius: 100%; border: 2px solid #fff; float: left; margin-right: 14px; }
+.indicator > li > a {display: block; width: 100%; height: 100%; border-radius: inherit;}
+.indicator > li > a:hover, .indicator > li > a:focus {cursor: pointer;}
+.indicator > li > a.active {background-color: #5174CC;}
+.indicator > li:last-child {margin-right: 0;}
+#modalbox {width: 100%; height: 100%; position: relative;}
+
+#modalbox > dl {width: 100%; height: 100%; background-color: #F1EEE8; position: absolute;}
+#modalbox > dl:nth-of-type(1) {z-index: 100;}
+#modalbox > dl.active {transition: all 300ms ease;}
+
+
+#modalbox > dl > dt {width: 240px; height: 70px; /*background-color: #ddd;*/ margin: auto; margin-bottom: 2.5rem; background-repeat: no-repeat; -webkit-background-size: contain; background-position: center; background-size: contain;}
+#modalbox > dl:nth-of-type(1) > dt {background-image: url("../../../img/introduce/kakaoi_inside.png");}
+#modalbox > dl:nth-of-type(2) > dt {background-image: url("../../../img/introduce/kakaoi.png");}
+#modalbox > dl:nth-of-type(3) > dt {background-image: url("../../../img/introduce/kakaoi_open_builder.png");}
+#modalbox > dl > dd {font-size: 1.2rem; line-height: 200%; word-break: keep-all;}
+
+
+
+#tGraph {width: 100%; height: 1010px; background-color: #fff; padding-top: 3rem; box-sizing: border-box; }
+.middleB {padding-top: 50px; box-sizing: border-box; width: 960px; height: 100%; margin: auto; position: relative;}
+#tGraph dl {width: 45%; margin-bottom: 2rem;}
+#tGraph dl > dt {font-size: 2rem; margin-bottom: 2.5rem; font-weight: bold; }
+#tGraph dl > dd {font-size: 1.2rem;  word-break: keep-all; line-height: 180%; }
+.with {position: absolute; top:3rem; right: 0;}
+#tGraph  p {font-size: 1.2rem; margin-top: 3rem; word-break: keep-all; line-height: 180%;}
+
+.tformobile {display: none;}
+ }
+
+
+
+@media screen and (min-width:1367px) { 
+
+.circle > li span:nth-of-type(2) {opacity: 0;}
+#Igraph {width: 100%; height: 746px; height: 46.625rem; background-color: #A1C2CE; padding-top: 105px; padding-top: 6.5625rem; box-sizing: border-box;}
+.middleB {position: relative;}
+.with {position: absolute; top:3rem; right: 0;}
+.tformobile {display: none;}
+
+}
+
+
+
