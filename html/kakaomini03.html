@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- kakaoI_main.html -->
+<!-- kakaomini03.html -->
 <html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
@@ -12,8 +12,8 @@
   <!-- import css -->
   <link rel="stylesheet" href="./headBox.html" />
   <link rel="stylesheet" href="../css/base/reset.css" />
-  <link rel="stylesheet" href="../css/src/kakaoI_main.css" />
   <link rel="stylesheet" href="../css/src/all/topBtn.css" />
+  <link rel="stylesheet" href="../css/src/kakaoI_kakaomini03.css" />
  
   <!-- ie -->
   <!-- [if lte IE 9] >
@@ -33,45 +33,50 @@
   <div id="wrap">
     <header id="headBox">
     </header>
-    
-    <aside id="mainbox" class="clearfix">
-      <h2 class="hidden">메인</h2>
-      <div class="banner">
-        <ul class="indicator">
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-        </ul>
-        <div class="banner_frame">
-          <div class="maintext">
-            <h3>카카오미니와 함께하는 당신의 새로운 일상</h3>
-            <button type="button" class="purchase" name="구매하기" onclick="window.open('http://naver.com')">구매하기</button>
-            <button type="button" class="view" name="제품보기" onclick="location.href='#'">제품보기</button>
-          </div>
-          <ul class="bannerUl">
-            <li class="banner1"></li>
-            <li class="banner2"></li>
-          </ul>
+    <!-- contentBox -->
+    <article id="tipBox" class="clearfix">
+      <aside id="textBanner_area">
+        <div class="textBN tb01">
+          <span>이제 말로 편하게</span>
         </div>
-      </div>
+        <div class="textBN tb02">
+          <span>헤이 카카오</span>
+        </div>
+        <div class="textBN tb03">
+          <span>택시 불러줘</span>
+          <span>카톡 보내줘</span>
+          <span>피자 주문해줘</span>
+        </div>
+        <div class="textBN tb04">
+          <span>kakao mini</span>
+        </div>
+      </aside>
+      <section id="howtoUse" class="clearfix">
+        <div class="middle">
+          <h3>카카오미니를 더 쉽고 재미있게 사용하는 방법</h3>
+          <p>명령어와 성장일기로 알아보세요!</p>
+          <div id="tipBtn"></div>
+          <div id="miniImg"></div>
+        </div>
+      </section>
+      <article id="downloadApp">
+        <div class="middle">
+          <h3>헤이카카오 앱을 다운로드하고<br />카카오미니를 연결하세요.</h3>
+          <div id="downBtn">
+            <button type="button" class="appstore">앱스토어</button>
+            <button type="button" class="playstore">플레이스토어</button>
+          </div>
+          <p>카카오미니를 깨우는 음성명령은 ‘헤이카카오’로 설정되어 있습니다. 헤이카카오앱에서 ‘카카오야’, ‘카카오’, ‘카카오미니’로 변경 가능합니다.</p>
+        </div>
+      </article>
+        
 
-      <div class="grow_mini">
-        <div class="middle_wrap">
-          <div id="ryanImage">
-            <div class="little"></div>
-            <div class="teen"></div>
-          </div>
-          <div id="growText">
-            <h3>카카오 미니는 성장 중!</h3>
-            <p>일상 속 카카오미니는 어떤 모습일까요?</p>
-            <button type="button">성장일기</button>
-          </div>
-        </div>
-      </div>
-    </aside>
+    </article>
     <div class="topBtn">
       <a href="#"><span class="hidden">상단으로 이동</span></a>
     </div>
 
+    <!-- footBox -->
     <footer id="footBox">
       <section id="fmiddle_wrap">
         <div id="foot_wrap">
@@ -87,7 +92,7 @@
   <!-- javascript -->
   <script src="../js/base/jQuery-3.3.1.min.js"></script>
   <script src="../js/base/jQuery-ui.min.js"></script>
-  <script src="../js/src/kakaoI_main.js"></script>
+  <script src="../js/src/kakaoI_kakaomini01.js"></script>
   <script>
     (function($){
       var headBox = $('#headBox');
