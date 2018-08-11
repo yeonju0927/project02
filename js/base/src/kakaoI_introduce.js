@@ -7,7 +7,14 @@ var circleUl = $('.circle');
 var circle = circleUl.children('li');
 
 
+var wind = $(window);
+var windWidth = wind.outerWidth();
+
+
 // 텍스트 변경 효과
+
+if(windWidth >= 481) { 
+
 circle.on('mouseenter', function(){ 
 
 $(this).css({backgroundColor:'#fff', border: '5px solid #CEC567'});
@@ -23,7 +30,9 @@ $(this).css({backgroundColor:'#CEC567', border: '5px solid #fff'});
 $(this).children('span').eq(1).removeClass('active');
 $(this).children('span').eq(0).fadeIn(500);
 
-});
+});}
+
+
 
 
 // modal indicator & 내용 바꾸기
@@ -58,6 +67,8 @@ var diWindow = $('.diWindow');
 
 modalBG.hide();
 
+if(windWidth > 480) {
+
 circleUl.on('click', function(e){
 e.preventDefault();
 
@@ -66,7 +77,8 @@ modalBG.fadeIn(1000);
 diWindow.prepend('<div class="close"><button type="button"><span class="hidden">닫기</span></button></div>');
 var close = $('.close');
 close.parent().css({position:'relative'});
-close.css({width:'45px', height:'45px', backgroundImage:'url("../../img/introduce/close_btn.png")', backgroundSize:'contain', position:'absolute', top: 0, right:0, zIndex: 2000});
+close.css({width:'45px', height:'45px', position:'absolute', top: 0, right:0, zIndex: 2000});
+close.children('button').css ({width:'100%', height:'100%', backgroundImage:'url("../../img/introduce/close_btn.png")', backgroundSize:'contain'});
                                                                                                                                        
 close.on('click', function(e){
 
@@ -76,7 +88,8 @@ modalBG.fadeOut();
 });
 
 
-});
+}); }
+
 
 
 
